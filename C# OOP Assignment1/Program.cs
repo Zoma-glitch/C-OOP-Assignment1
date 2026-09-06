@@ -298,7 +298,7 @@ namespace C__OOP_Assignment1
             public shipment(string trackingCode, string description, double weight, decimal deliveryFee, DeliveryAddress destination)
             {
                 this.weight = weight;
-                this.deliveryFee = deliveryFee;
+                this.DeliveryFee = deliveryFee;
                 this.Destination = destination;
                 this.TrackingCode = trackingCode;
                 this.Description = description;
